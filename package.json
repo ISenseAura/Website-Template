@@ -1,0 +1,25 @@
+{
+  "name": "webserver_template",
+  "version": "1.0.0",
+  "author": "mayur hiwale",
+  "description": "a simple web server having login feature",
+  "main": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "ejs": "^2.6.1",
+    "ws": "^5.1.1",
+    "socket.io": "^2.2.0",
+    "body-parser": "^1.19.0",
+    "express-session": "^1.16.1",
+    "random-color": "^2.0.0",
+    "seed-color": "^2.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
